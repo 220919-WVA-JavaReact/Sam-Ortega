@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FILE = $1
+
+while IFS="," read f1 f2
+do
+  # Do something with that value, like a cURL command
+  echo "First name is $f1"
+  echo "Last name is $f2"
+done < $FILE
