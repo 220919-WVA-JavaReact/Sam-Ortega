@@ -77,3 +77,18 @@ VALUES
 (1,1),
 (2,2),
 (3,3);
+
+INSERT INTO courses("title", courseNumber)
+VALUES 
+('Reading', 4),
+('Writing', 2);
+
+INSERT INTO topics (topic)
+VALUES
+('essays'),
+('Harry Potter');
+
+INSERT INTO courses_topics 
+VALUES
+(4,5),
+(5,4);
