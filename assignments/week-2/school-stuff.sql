@@ -110,3 +110,8 @@ SELECT s."name", s.email, c.title, c.coursenumber
 FROM students s
 FULL JOIN students_courses sc  ON s.id = sc.student_id 
 FULL JOIN courses c ON sc.course_id = c.id;
+
+SELECT s."name", c.title, c.coursenumber
+FROM students s
+NATURAL JOIN students_courses sc
+NATURAL JOIN courses c;
