@@ -92,3 +92,21 @@ INSERT INTO courses_topics
 VALUES
 (4,5),
 (5,4);
+
+SELECT t."name", t.email, c.title, c.coursenumber 
+FROM teachers T
+JOIN courses C ON c.coursenumber = t.coursenum;
+
+SELECT *
+FROM teachers 
+RIGHT JOIN courses ON teachers.coursenum = courses.coursenumber;
+
+SELECT *
+FROM students s
+FULL JOIN students_courses sc  ON s.id = sc.student_id 
+FULL JOIN courses c ON sc.course_id = c.id;
+
+SELECT s."name", s.email, c.title, c.coursenumber
+FROM students s
+FULL JOIN students_courses sc  ON s.id = sc.student_id 
+FULL JOIN courses c ON sc.course_id = c.id;
