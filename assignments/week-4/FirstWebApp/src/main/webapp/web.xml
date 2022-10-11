@@ -1,0 +1,24 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+        http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <!-- I want a deployment name so we can see some data about our project -->
+    <display-name>My First Web App</display-name>
+
+    <!-- For each servlet I'll need to define 2 things
+        The servlet itself and the mapping of the servlet -->
+
+    <servlet>
+        <servlet-name>SanityServlet</servlet-name>
+        <servlet-class>com.revature.SanityServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SanityServlet</servlet-name>
+        <url-pattern>/sanity</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
