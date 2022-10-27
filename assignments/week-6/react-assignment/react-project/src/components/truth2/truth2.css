@@ -1,0 +1,12 @@
+.truth-two{
+    margin: 300px 400px;
+    background: rgba(0, 0, 0, 0.922);
+    font-size: 60px;
+    color: rgb(0, 181, 0);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: solid rgb(255, 115, 0) 2px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+}

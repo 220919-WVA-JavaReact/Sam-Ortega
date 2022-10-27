@@ -6,6 +6,10 @@ import TTAAL from "./components/ttaal/ttaal";
 // import { Route, Switch } from 'react-router-dom';
 import Landing from "./components/landing/landing";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Truth1 from './components/truth1/truth1';
+import Truth2 from './components/truth2/truth2';
+import Lie from './components/lie/lie';
+
 
 function App() {
   return (
@@ -20,6 +24,9 @@ function App() {
       <Routes>
         <Route path="/ttaal" element={<TTAAL />}></Route>
         <Route path="/" element={<Landing />}></Route>
+        <Route path="/truth1" element={<Truth1 />}></Route>
+        <Route path="/truth2" element={<Truth2 />}></Route>
+        <Route path="/lie" element={<Lie />}></Route>
       </Routes>
     </div>
   );

@@ -1,0 +1,20 @@
+.the-lie{
+    margin: 300px 350px;
+    background: rgba(0, 0, 0, 0.922);
+    font-size: 60px;
+    color: rgb(255, 115, 0);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: solid green 2px;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.go-back{
+    font-size: 24px;
+    color: rgb(0, 255, 0);
+    background:rgb(0, 56, 0);
+    border: solid rgb(0, 255, 0) 1px;
+    border-radius: 10px;
+}

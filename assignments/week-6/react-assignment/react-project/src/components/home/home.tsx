@@ -13,9 +13,9 @@ function Home(){
                 <button className='ttaal-bttn'>TTAAL</button>
             </Link>
             <h1 className='welcome'>Welcome to my about me!</h1>
-            <Link to='/about'>
+            {/* <Link to='/about'>
                 <button className='about-bttn'>ABOUT</button>
-            </Link>
+            </Link> */}
 
         </div>
     )

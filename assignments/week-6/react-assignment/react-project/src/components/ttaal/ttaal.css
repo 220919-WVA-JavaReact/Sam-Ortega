@@ -1,0 +1,39 @@
+.TTAAl{
+    margin: 250px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first{
+    margin-bottom: 25px;
+    font-size: 32px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.814);
+    color: rgb(0, 182, 0);
+    border: solid orange 1px;
+    border-radius: 15px;
+}
+
+.second{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 32px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.814);
+    color: rgb(0, 182, 0);
+    border: solid orange 1px;
+    border-radius: 15px;
+
+}
+
+.third{
+    margin-top: 25px;
+    font-size: 32px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.814);
+    color: rgb(0, 182, 0);
+    border: solid orange 1px;
+    border-radius: 15px;
+}
