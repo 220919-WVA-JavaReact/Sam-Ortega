@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 115, 0);
+    background: rgba(35, 35, 35, 0.769);
+    margin: 0 auto 0;
+    border: solid green 2px;
+}
+
+.home-bttn{
+    margin-right: 60px;
+    font-size: 24px;
+    font: bold;
+    background: black;
+    color: green;
+    border: solid orange 1px;
+    border-radius: 10px;
+}
+
+.about-bttn{
+    margin-right: 60px;
+    font-size: 24px;
+    font: bold;
+    background: black;
+    color: orange;
+    border: solid green 1px;
+    border-radius: 10px;
+}
+
+.ttaal-bttn{
+    margin-right: 60px;
+    font-size: 24px;
+    font: bold;
+    background: black;
+    color: orange;
+    border: solid green 1px;
+    border-radius: 10px;
+}
+
+.welcome{
+    margin-right: 60px;
+}

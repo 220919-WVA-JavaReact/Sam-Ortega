@@ -1,0 +1,11 @@
+.land{
+    margin: 300px 300px;
+    color: rgb(255, 115, 0);
+    font-size: 30px;
+    font: bold;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: rgba(0, 0, 0, 0.878);
+    border: solid green 2px;
+    border-radius: 15px;
+}
