@@ -6,10 +6,10 @@ import {Link} from 'react-router-dom';
 function Home(){
     return(
         <div className="home">
-            <Link to='/'>
+            <Link to='/' className='slash'>
                 <button className='home-bttn'>HOME</button>
             </Link>
-            <Link to='/ttaal'>
+            <Link to='/ttaal' className='to-ttal'>
                 <button className='ttaal-bttn'>TTAAL</button>
             </Link>
             <h1 className='welcome'>Welcome to my about me!</h1>

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('./Untitled_design.png'), auto;
 }
 
 code {
@@ -12,6 +13,10 @@ code {
     monospace;
 }
 
+button{
+  cursor: url('./Untitled_design.png'), auto;
+}
 
-
-
+a{
+  cursor: url('./Untitled_design.png'), auto;
+}
