@@ -6,7 +6,7 @@
     color: rgb(255, 115, 0);
     background: rgba(35, 35, 35, 0.769);
     margin: 0 auto 0;
-    border: solid green 2px;
+    border: solid rgb(0, 181, 0) 1px;
 }
 
 .slash{
@@ -26,7 +26,7 @@
     font-size: 24px;
     font: bold;
     background: black;
-    color: green;
+    color: rgb(0, 181, 0);
     border: solid rgb(255, 115, 0) 1px;
     border-radius: 10px;
 }
@@ -37,7 +37,7 @@
     font: bold;
     background: black;
     color: rgb(255, 115, 0);
-    border: solid green 1px;
+    border: solid rgb(0, 181, 0) 1px;
     border-radius: 10px;
 }
 
@@ -47,7 +47,7 @@
     font: bold;
     background: black;
     color: rgb(255, 115, 0);
-    border: solid green 1px;
+    border: solid rgb(0, 181, 0) 1px;
     border-radius: 10px;
 }
 
